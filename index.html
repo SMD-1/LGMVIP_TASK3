@@ -12,53 +12,51 @@
 </head>
 <body>
     
-    <div class="container">
-        <div class="title">
-            <span class="heading">Logo</span>
-        </div>
-        
-        <div class="nav">
-            <ul>
-                <li>
-                    <a href="homepage.html">Home</a>
-                </li>
-                <li>
-                    <a href="login.php">Admin Login</a>
-                </li>
-                <li class="dropdown" onclick="toggleDisplay('1')">
-                    <a href="#" class="dropbtn">Faculties &nbsp
-                        <span class="fa fa-angle-down"></span>
-                    </a>
-                    <div class="dropdown-content" id="1">
-                        <a href="">Arts</a>
-                        <a href="">Science</a>
-                        <a href="">Commerce</a>
-                        <a href="">Technology</a>
-                        <a href="">Sports</a>
-                        <a href="">Others</a>
-                    </div>
-                </li>
-                <li class="dropdown" onclick="toggleDisplay('2')">
-                    <a href="#" class="dropbtn">Student &nbsp
-                        <span class="fa fa-angle-down"></span>
-                    </a>
-                    <div class="dropdown-content" id="2">
-                        <a href="">Admissions</a>
-                        <a href="">Scholarship</a>
-                        <a href="">Examination</a>
-                        <a href="./login.php">Results</a>
-                        <a href="">Manage Results</a>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    
-
-    
-   
-
-
+  <div class="container">
+    <div class="header">
+      <div class="title">
+          <span class="heading">University</span>
+      </div>
+      <div class="nav">
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="login.php">Admin</a>
+          </li>
+          <li class="dropdown" onclick="toggleDisplay('1')">
+            <a href="#" class="dropbtn">Faculties &nbsp
+                <span class="fa fa-angle-down"></span>
+            </a>
+            <div class="dropdown-content" id="1">
+              <a href="">Technology</a>
+              <a href="">Sports</a>
+              <a href="">Others</a>
+            </div>
+          </li>
+          <li class="dropdown" onclick="toggleDisplay('2')">
+            <a href="#" class="dropbtn">Student &nbsp
+              <span class="fa fa-angle-down"></span>
+            </a>
+            <div class="dropdown-content" id="2">
+                <a href="">Admissions</a>
+                <a href="./login.php">Results</a>
+            </div>
+          </li>
+        </ul>
+      </div>
     </div>
+    <div class="hero"> 
+      <div class="content"> 
+        <p>Click on <span> Admin </span> to login </p>
+      </div>
+      <div class="image"> 
+        <img src="./images/teaching.svg" alt="teaching" />
+      </div>
+    </div>
+    
+  </div>
 
 </body>
 </html>
